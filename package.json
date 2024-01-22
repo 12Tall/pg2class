@@ -1,0 +1,27 @@
+{
+  "name": "pg2class",
+  "version": "0.0.2",
+  "description": "Generate NodeJS Class from Postgresql",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12Tall/pg2class.git"
+  },
+  "author": "12Tall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/12Tall/pg2class/issues"
+  },
+  "homepage": "https://github.com/12Tall/pg2class#readme",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "colors": "^1.4.0",
+    "commander": "^11.1.0",
+    "pg": "^8.11.3",
+    "yesql": "^7.0.0"
+  }
+}

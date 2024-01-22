@@ -1,0 +1,11 @@
+class {{ class_name }} {
+    constructor(obj){
+        {{each dt_fields }}this.{{$value.column_name}} = null;
+        {{/each}}
+        Object.assign(this, obj)
+    }
+}
+
+module.exports = {
+    {{class_name}}
+}
